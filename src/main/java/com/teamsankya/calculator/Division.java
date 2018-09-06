@@ -19,7 +19,6 @@ public class Division {
 					"/Users/taurusthebull/Documents/applogger.log");
 			LOGGER.addAppender(rollingFileAppender);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
