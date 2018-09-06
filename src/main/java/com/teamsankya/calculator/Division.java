@@ -30,22 +30,12 @@ public class Division {
 	}
 
 	public static long divide(long a, long b) {
-		try {
-			LOGGER.info("dividing 2 long " + a + " " + b);
-			return a / b;
-		} catch (Exception e) {
-			LOGGER.error("/ 0 error");
-			return 0;
-		}
+		LOGGER.info("dividing 2 long " + a + " " + b);
+		return a / b;
 	}
 
 	public static double divide(double a, double b) {
-		try {
-			LOGGER.info("dividing 2 double " + a + " " + b);
-			return a / b;
-		} catch (Exception e) {
-			LOGGER.error("/ 0 error");
-			return 0;
-		}
+		LOGGER.info("dividing 2 double " + a + " " + b);
+		return a / b;
 	}
 }
