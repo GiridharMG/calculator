@@ -47,8 +47,7 @@ public class AdditionTest {
 				{50,50,100},
 				{99,99,198},
 				{100,100,200},
-				{101,101,202},
-				{1,2,3}};
+				{101,101,202}};
 		List<Integer[]> integers = Arrays.asList(arr);
 		return integers;
 	}
