@@ -37,7 +37,6 @@ public class AdditionTest {
 	
 	@Parameters
 	public static Collection<Integer[]> testParameters() {
-		// parameters
 		Integer[][] arr = {{0,0,0},
 				{-1,-1,-2},
 				{1,1,2},
