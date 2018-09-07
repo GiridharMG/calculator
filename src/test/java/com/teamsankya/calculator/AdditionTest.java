@@ -1,9 +1,5 @@
 package com.teamsankya.calculator;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -41,6 +37,7 @@ public class AdditionTest {
 	
 	@Parameters
 	public static Collection<Integer[]> testParameters() {
+		// parameters
 		Integer[][] arr = {{0,0,0},
 				{-1,-1,-2},
 				{1,1,2},
