@@ -26,14 +26,7 @@ public class AdditionTest {
 		this.b = b;
 		this.expected = expected;
 	}
-	@BeforeClass
-	public static void executeBeforeClass() {
-		System.out.println("Before test Class");
-	}
-	@Before
-	public void executeBefore() {
-		System.out.println("Before test case");
-	}
+	
 	@Ignore
 	@Test
 	public void addTestInt1() {
@@ -45,14 +38,7 @@ public class AdditionTest {
 		double sum = Addition.add(10.2, 20.3);
 		assertEquals(30.5, sum);
 	}
-	@After
-	public void executeAfter() {
-		System.out.println("After test case");
-	}
-	@AfterClass
-	public static void executeAfterClass() {
-		System.out.println("After test Class");
-	}
+	
 	@Parameters
 	public static Collection<Integer[]> testParameters() {
 		Integer[][] arr = {{0,0,0},
